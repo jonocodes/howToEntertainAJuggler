@@ -1,0 +1,8 @@
+
+#jugglerPosition 1 (0,0,0)(-100,0,0)
+#jugglerPosition 2 (40,0,0)(100,0,0)
+
+#jugglerStartLeft 2
+#jugglerDelay 2 0.5
+
+<4p | 5p>

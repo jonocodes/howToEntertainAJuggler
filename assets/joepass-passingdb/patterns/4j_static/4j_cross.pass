@@ -1,0 +1,31 @@
+! La croix
+! Julien, 15/03/2001
+
+
+! positions -------------------
+
+! jongleur a gauche 
+#jugglerPosition 1 (-200,0,0)(200,0,0)
+! jongleur à droite
+#jugglerPosition 2 (200,0,0)(-200,0,0)
+! jongleur en haut 
+#jugglerPosition 3 (0,0,-200)(0,0,200)
+! jongleur en bas 
+#jugglerPosition 4 (0,0,200)(0,0,-200)
+
+
+! code-------------------------
+
+! Enlever les commentaires et en rajouter
+! pour changer le rythme
+
+! 4-temps
+<3:2|3:1|3  |3  >
+<3  |3  |3  |3  >
+<3  |3  |3:4|3:3>
+<3  |3  |3  |3  >
+
+
+! deux temps
+!<3:2|3:1|3  |3  >
+!<3  |3  |3:4|3:3>

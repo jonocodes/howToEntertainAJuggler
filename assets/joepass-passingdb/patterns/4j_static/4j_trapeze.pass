@@ -1,0 +1,24 @@
+! Le trapeze 
+! JiBe + Julien, 28/03/2001
+! explications : http://perso.club-internet.fr\gibee\plusieurs\trapeze.htm
+
+
+! positions -------------------
+
+! jongleur en bas à gauche
+#jugglerPosition 1 (-100,0,100)(100,0,100)
+! jongleur en haut a gauche 
+#jugglerPosition 2 (-200,0,-100)(200,0,-100)
+! jongleur en bas à droite
+#jugglerPosition 3 (100,0,100)(-100,0,100)
+! jongleur en haut a droite
+#jugglerPosition 4 (200,0,-100)(-200,0,-100)
+
+
+! code-------------------------
+
+! 4-temps
+< 3:3 | 3:4  | 3:1 | 3:2 >
+< 3   | 3    | 3   | 3   >
+< 3:4 | 3:3  | 3:2 | 3:1 >
+< 3   | 3    | 3   | 3   >

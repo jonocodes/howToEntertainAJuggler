@@ -1,0 +1,349 @@
+#r PA (   0,0, 200)(0,0,0)
+#r PB ( 190,0,  61)(0,0,0)
+#r PC ( 117,0,-161)(0,0,0)
+#r PD (-117,0,-161)(0,0,0)
+#r PE (-190,0,  61)(0,0,0)
+
+#r MOD 20
+
+#jugglerPosition 1 PA
+#jugglerPosition 2 PB
+#jugglerPosition 3 PC
+#jugglerPosition 4 PD
+#jugglerPosition 5 PE 
+
+! 1st round
+! 1.
+! C arrived
+! B runs empty
+! B -> D
+! D -> A
+! A -> C
+! C -> x
+! x -> B
+<3:3|3:4|0  |3:1> 
+<3  |3  |0  |3  >
+<3:3|3:4|0  |3:1> 
+<3  |0  |3  |3  >
+<3:3|3:4|0  |3:1> 
+#jugglerMove x MOD 2 3 PE
+<3  |0  |3  |3  >
+
+! 2.
+! B arrived
+! D runs empty
+! D -> A
+! A -> C
+! C -> B
+! B -> x
+! x -> D
+<3:3|0  |3:2|3:1> 
+<3  |0  |3  |3  >
+<3:3|0  |3:2|3:1> 
+<3  |3  |3  |0  >
+<3:3|0  |3:2|3:1> 
+#jugglerMove x MOD 4 3 PB
+<3  |3  |3  |0  >
+
+! 3.
+! D arrived
+! A runs empty
+! A -> C
+! C -> B
+! B -> D
+! D -> x
+! x -> A
+<3:3|3:4|3:2|0  > 
+<3  |3  |3  |0  >
+<3:3|3:4|3:2|0  > 
+<0  |3  |3  |3  >
+<3:3|3:4|3:2|0  > 
+#jugglerMove x MOD 1 3 PD
+<0  |3  |3  |3  >
+
+
+! 4.
+! A arrived
+! C runs empty
+! C -> B
+! B -> D
+! D -> A
+! A -> x
+! x -> C
+<0  |3:4|3:2|3:1> 
+<0  |3  |3  |3  >
+<0  |3:4|3:2|3:1> 
+<3  |3  |0  |3  >
+<0  |3:4|3:2|3:1> 
+#jugglerMove x MOD 3 3 PA
+<3  |3  |0  |3  >
+
+
+
+! 2nd round
+! 1.
+! C arrived
+! B runs empty
+! B -> D
+! D -> A
+! A -> C
+! C -> x
+! x -> B
+<3:3|3:4|0  |3:1> 
+<3  |3  |0  |3  >
+<3:3|3:4|0  |3:1> 
+<3  |0  |3  |3  >
+<3:3|3:4|0  |3:1> 
+#jugglerMove x MOD 2 3 PC
+<3  |0  |3  |3  >
+
+! 2.
+! B arrived
+! D runs empty
+! D -> A
+! A -> C
+! C -> B
+! B -> x
+! x -> D
+<3:3|0  |3:2|3:1> 
+<3  |0  |3  |3  >
+<3:3|0  |3:2|3:1> 
+<3  |3  |3  |0  >
+<3:3|0  |3:2|3:1> 
+#jugglerMove x MOD 4 3 PE
+<3  |3  |3  |0  >
+
+! 3.
+! D arrived
+! A runs empty
+! A -> C
+! C -> B
+! B -> D
+! D -> x
+! x -> A
+<3:3|3:4|3:2|0  > 
+<3  |3  |3  |0  >
+<3:3|3:4|3:2|0  > 
+<0  |3  |3  |3  >
+<3:3|3:4|3:2|0  > 
+#jugglerMove x MOD 1 3 PB
+<0  |3  |3  |3  >
+
+
+! 4.
+! A arrived
+! C runs empty
+! C -> B
+! B -> D
+! D -> A
+! A -> x
+! x -> C
+<0  |3:4|3:2|3:1> 
+<0  |3  |3  |3  >
+<0  |3:4|3:2|3:1> 
+<3  |3  |0  |3  >
+<0  |3:4|3:2|3:1> 
+#jugglerMove x MOD 3 3 PD
+<3  |3  |0  |3  >
+
+
+! 3rd round
+! 1.
+! C arrived
+! B runs empty
+! B -> D
+! D -> A
+! A -> C
+! C -> x
+! x -> B
+<3:3|3:4|0  |3:1> 
+<3  |3  |0  |3  >
+<3:3|3:4|0  |3:1> 
+<3  |0  |3  |3  >
+<3:3|3:4|0  |3:1> 
+#jugglerMove x MOD 2 3 PA
+<3  |0  |3  |3  >
+
+! 2.
+! B arrived
+! D runs empty
+! D -> A
+! A -> C
+! C -> B
+! B -> x
+! x -> D
+<3:3|0  |3:2|3:1> 
+<3  |0  |3  |3  >
+<3:3|0  |3:2|3:1> 
+<3  |3  |3  |0  >
+<3:3|0  |3:2|3:1> 
+#jugglerMove x MOD 4 3 PC
+<3  |3  |3  |0  >
+
+! 3.
+! D arrived
+! A runs empty
+! A -> C
+! C -> B
+! B -> D
+! D -> x
+! x -> A
+<3:3|3:4|3:2|0  > 
+<3  |3  |3  |0  >
+<3:3|3:4|3:2|0  > 
+<0  |3  |3  |3  >
+<3:3|3:4|3:2|0  > 
+#jugglerMove x MOD 1 3 PE
+<0  |3  |3  |3  >
+
+
+! 4.
+! A arrived
+! C runs empty
+! C -> B
+! B -> D
+! D -> A
+! A -> x
+! x -> C
+<0  |3:4|3:2|3:1> 
+<0  |3  |3  |3  >
+<0  |3:4|3:2|3:1> 
+<3  |3  |0  |3  >
+<0  |3:4|3:2|3:1> 
+#jugglerMove x MOD 3 3 PB
+<3  |3  |0  |3  >
+
+! 4th round
+! 1.
+! C arrived
+! B runs empty
+! B -> D
+! D -> A
+! A -> C
+! C -> x
+! x -> B
+<3:3|3:4|0  |3:1> 
+<3  |3  |0  |3  >
+<3:3|3:4|0  |3:1> 
+<3  |0  |3  |3  >
+<3:3|3:4|0  |3:1> 
+#jugglerMove x MOD 2 3 PD
+<3  |0  |3  |3  >
+
+! 2.
+! B arrived
+! D runs empty
+! D -> A
+! A -> C
+! C -> B
+! B -> x
+! x -> D
+<3:3|0  |3:2|3:1> 
+<3  |0  |3  |3  >
+<3:3|0  |3:2|3:1> 
+<3  |3  |3  |0  >
+<3:3|0  |3:2|3:1> 
+#jugglerMove x MOD 4 3 PA
+<3  |3  |3  |0  >
+
+! 3.
+! D arrived
+! A runs empty
+! A -> C
+! C -> B
+! B -> D
+! D -> x
+! x -> A
+<3:3|3:4|3:2|0  > 
+<3  |3  |3  |0  >
+<3:3|3:4|3:2|0  > 
+<0  |3  |3  |3  >
+<3:3|3:4|3:2|0  > 
+#jugglerMove x MOD 1 3 PC
+<0  |3  |3  |3  >
+
+
+! 4.
+! A arrived
+! C runs empty
+! C -> B
+! B -> D
+! D -> A
+! A -> x
+! x -> C
+<0  |3:4|3:2|3:1> 
+<0  |3  |3  |3  >
+<0  |3:4|3:2|3:1> 
+<3  |3  |0  |3  >
+<0  |3:4|3:2|3:1> 
+#jugglerMove x MOD 3 3 PE
+<3  |3  |0  |3  >
+
+
+! 5th round
+! 1.
+! C arrived
+! B runs empty
+! B -> D
+! D -> A
+! A -> C
+! C -> x
+! x -> B
+<3:3|3:4|0  |3:1> 
+<3  |3  |0  |3  >
+<3:3|3:4|0  |3:1> 
+<3  |0  |3  |3  >
+<3:3|3:4|0  |3:1> 
+#jugglerMove x MOD 2 3 PB
+<3  |0  |3  |3  >
+
+! 2.
+! B arrived
+! D runs empty
+! D -> A
+! A -> C
+! C -> B
+! B -> x
+! x -> D
+<3:3|0  |3:2|3:1> 
+<3  |0  |3  |3  >
+<3:3|0  |3:2|3:1> 
+<3  |3  |3  |0  >
+<3:3|0  |3:2|3:1> 
+#jugglerMove x MOD 4 3 PD
+<3  |3  |3  |0  >
+
+! 3.
+! D arrived
+! A runs empty
+! A -> C
+! C -> B
+! B -> D
+! D -> x
+! x -> A
+<3:3|3:4|3:2|0  > 
+<3  |3  |3  |0  >
+<3:3|3:4|3:2|0  > 
+<0  |3  |3  |3  >
+<3:3|3:4|3:2|0  > 
+#jugglerMove x MOD 1 3 PA
+<0  |3  |3  |3  >
+
+
+! 4.
+! A arrived
+! C runs empty
+! C -> B
+! B -> D
+! D -> A
+! A -> x
+! x -> C
+<0  |3:4|3:2|3:1> 
+<0  |3  |3  |3  >
+<0  |3:4|3:2|3:1> 
+<3  |3  |0  |3  >
+<0  |3:4|3:2|3:1> 
+#jugglerMove x MOD 3 3 PC
+<3  |3  |0  |3  >
+
+

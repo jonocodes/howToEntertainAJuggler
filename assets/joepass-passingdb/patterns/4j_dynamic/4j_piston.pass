@@ -1,0 +1,62 @@
+! Les pistons en 4-temps
+! JiBe + Julien, 02/04/2001
+! explications : http://perso.club-internet.fr\gibee\plusieurs\piston.htm
+
+
+! positions -------------------
+
+#r P1 (100,0,300)(100,0,0)
+#r P2 (-100,0,300)(-100,0,0)
+#r P3 (-100,0,100)(-100,0,-200)
+#r P4 (100,0,100)(100,0,-200)
+
+#r Q1 (100,0,0)(100,0,300)
+#r Q2 (-100,0,0)(-100,0,300)
+#r Q3 (-100,0,-200)(-100,0,100)
+#r Q4 (100,0,-200)(100,0,100)
+
+
+#jugglerPosition 1 P1
+#jugglerPosition 2 P3
+#jugglerPosition 3 Q1
+#jugglerPosition 4 Q3
+
+#r t_mouv 3
+
+! code-------------------------
+
+< 3:3 | 3:4  | 3:1 | 3:2 >
+< 3   | 3    | 3   | 3   >
+#m 1 t_mouv P2
+#m 2 t_mouv P4
+#m 3 t_mouv Q4
+#m 4 t_mouv Q2
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:4 | 3:3  | 3:2 | 3:1 >
+< 3   | 3    | 3   | 3   >
+#m 1 t_mouv P3
+#m 2 t_mouv P1
+#m 3 t_mouv Q3
+#m 4 t_mouv Q1
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:3 | 3:4  | 3:1 | 3:2 >
+< 3   | 3    | 3   | 3   >
+#m 1 t_mouv P4
+#m 2 t_mouv P2
+#m 3 t_mouv Q2
+#m 4 t_mouv Q4
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:4 | 3:3  | 3:2 | 3:1 >
+< 3   | 3    | 3   | 3   >
+#m 1 t_mouv P1
+#m 2 t_mouv P3
+#m 3 t_mouv Q1
+#m 4 t_mouv Q3
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >

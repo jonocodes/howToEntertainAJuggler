@@ -1,0 +1,65 @@
+logfile created on Sat Dec 18 19:12:03 2004
+
+----------------------------------
+JoePass! by Wolfgang Westerboer.
+Version JoePass! version 4.1
+Build on Jul  8 2004
+All rights reserved.
+westwolf@netcologne.de
+----------------------------------
+
+
+application files and directories:
+application path=: D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\
+sys path=: D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\
+mediaPath:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\media\
+
+log file= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\logfile.txt
+actual temp file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\actualTemp.pass
+edit2Cdew temp file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\edit2CdewTemp.pass
+edit2NewCdewTempPath:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\edit2NewCdewTemp.pass
+
+work file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\work.pass
+pro file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\profile.txt
+err file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\errors.txt
+input file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\console.pass
+style file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\styles.txt
+pref file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\jpPrefs.txt
+language file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\jpLanguage.txt
+history file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\history.txt
+edit file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\edit.pass
+help file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\help.txt
+j2 help file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\j2.txt
+tip file:= D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\esccodes.txt
+
+
+argv[1] = D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\7m_3t.pass
+loading file D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\7m_3t.pass
+
+creating animation window
+initalizing textures
+initalizing textures ... done
+worldWinID is 1
+
+
+
+initialising runaround editor
+runaround editor initialized
+
+writing prefs to file: D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\jpLanguage.txt
+writing prefs ... ok
+write prefs
+writing prefs to file: D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\jpPrefs.txt
+writing prefs ... ok
+removing folder D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\media\ ... failed
+
+writing file checkForCrash
+
+resetting application directory
+D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs
+removing D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\causalSelect.pass ... failed
+removing D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\actualTemp.pass ... ok
+removing D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\edit2NewCdewTemp.pass ... failed
+removing D:\JiBe\Jongle\site_internet\SITE_PASSING\joepass\rhythms\7clubs\sys\edit2CdewTemp.pass ... failed
+
+JoePass! ... done

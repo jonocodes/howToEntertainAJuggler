@@ -1,0 +1,38 @@
+! JoePass! file, generated Sun Nov 25 14:02:34 2001
+! cdew siteswap output: 
+#sx
+#mhn*
+#objectCount 10
+<( 3*, 4:2x*) ( 3*, 4:2x*) ( 3*, 4:2x*) |
+( 3*, 4:1x*) ( 3*, 4:1x*) ( 3*, 4:1x*) >
+
+
+
+"-------------------hide content from JoePass
+
+#cdew Version  1.500000
+
+start of cdew output
+
+cdewsize 2 2 3
+cdewLineMode 0
+cdewDisplayMode 1
+cdewColorMode 0
+cdewCellBackground 1
+cdewLineSeperators 0
+cdewHandDelay 0
+cdewShowNumbers 0
+cell 0 0 0 = 1 0 1 -1 1 -1 -1 0 0.000000 0 0 
+cell 0 1 0 = 2 1 0 -1 1 -1 -1 0 0.000000 0 0 
+cell 0 0 1 = 1 0 1 -1 1 -1 -1 0 0.000000 0 0 
+cell 0 1 1 = 2 1 0 -1 1 -1 -1 0 0.000000 0 0 
+cell 0 0 2 = 1 0 1 -1 1 -1 -1 0 0.000000 0 0 
+cell 0 1 2 = 2 1 0 -1 1 -1 -1 0 0.000000 0 0 
+cell 1 0 0 = 1 1 1 -1 1 -1 -1 0 0.000000 0 0 
+cell 1 1 0 = 2 0 0 -1 1 -1 -1 0 0.000000 0 0 
+cell 1 0 1 = 1 1 1 -1 1 -1 -1 0 0.000000 0 0 
+cell 1 1 1 = 2 0 0 -1 1 -1 -1 0 0.000000 0 0 
+cell 1 0 2 = 1 1 1 -1 1 -1 -1 0 0.000000 0 0 
+cell 1 1 2 = 2 0 0 -1 1 -1 -1 0 0.000000 0 0 
+end of cdew output
+-------------------"

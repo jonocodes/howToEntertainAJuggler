@@ -1,0 +1,64 @@
+! La speed-wave avec poste en 2-temps--------
+! JiBe, 02/04/2001
+! explications : http://perso.club-internet.fr\gibee\plusieurs\speed_wave.htm
+
+
+! positions -------------------
+
+#r PA (0,0,-200)(-300,0,0)
+#r PB (0,0,0)(-300,0,0)
+#r PC (0,0,200)(-300,0,0)
+
+#jugglerPosition 1 PA
+#jugglerPosition 2 PB
+#jugglerPosition 3 PC
+#jugglerPosition 4 (-300,0,0)(0,0,0)
+
+! amplitude des deplacements
+#r amp 10
+
+! temps des deplacements
+#r t_mouv 6
+
+! code -------------------------
+#m x-amp 1 t_mouv PB
+
+<3:4 | 3 | 3 | 3:1>
+<3 | 3 | 3 | 3 >
+#m x-amp 1 t_mouv PB
+<3 | 3:4 | 3 | 3:2>
+<3 | 3 | 3 | 3 >
+#m x+amp 2 t_mouv PA
+<3 | 3 | 3:4 | 3:3>
+<3 | 3 | 3 | 3 >
+#m x-amp 3 t_mouv PB
+
+<3:4 | 3 | 3 | 3:1>
+<3 | 3 | 3 | 3 >
+#m x+amp 1 t_mouv PC
+<3 | 3:4 | 3 | 3:2>
+<3 | 3 | 3 | 3 >
+#m x-amp 2 t_mouv PB
+<3 | 3 | 3:4 | 3:3>
+<3 | 3 | 3 | 3 >
+#m x+amp 3 t_mouv PA
+
+<3:4 | 3 | 3 | 3:1>
+<3 | 3 | 3 | 3 >
+#m x-amp 1 t_mouv PB
+<3 | 3:4 | 3 | 3:2>
+<3 | 3 | 3 | 3 >
+#m x+amp 2 t_mouv PC
+<3 | 3 | 3:4 | 3:3>
+<3 | 3 | 3 | 3 >
+#m x-amp 3 t_mouv PB
+
+<3:4 | 3 | 3 | 3:1>
+<3 | 3 | 3 | 3 >
+#m x+amp 1 t_mouv PA
+<3 | 3:4 | 3 | 3:2>
+<3 | 3 | 3 | 3 >
+#m x-amp 2 t_mouv PB
+<3 | 3 | 3:4 | 3:3>
+#m x+amp 3 t_mouv PC
+<3 | 3 | 3 | 3 >

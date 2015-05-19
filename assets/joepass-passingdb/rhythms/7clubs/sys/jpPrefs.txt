@@ -1,0 +1,181 @@
+Preference file
+generated Sat Dec 18 19:12:07 2004
+
+
+---------- bugfix for crashes under some GLUT implementations: ----------
+menuMarkers:= 0
+========== openGL settings ===================
+---------- environment definitions: ----------
+environment:= 1
+fog:= 0
+fogStart:= 0.000000
+fogEnd:= 50.000000
+fogDensity:= 0.030000
+fieldOfViewY:= 60.000000
+---------- Light ------------------------------
+light_position:= 0.000000 3750.000000 3000.000000 1.000000
+---------- render mode ------------------------
+solidWorld:= 1
+shaderMode:= 1
+levelOfDetail:= 5
+---------- color definitions: -----------------
+backgroundColor:= 0.100000 0.100000 0.100000
+heightColor:= 1.000000 0.000000 0.000000
+jugglerColor:= 0.800000 0.800000 0.800000
+skyColor:= 0.100000 0.100000 0.300000
+fog_color:= 0.500000 0.500000 0.500000
+floorColor:= 0.000000 0.600000 0.000000
+floorGridColor:= 0.900000 0.900000 0.900000
+objectColor:= 1.000000 0.000000 0.000000
+colorOffset:= 0
+luminance:= 0.800000
+niveauBlendValue:= 0.300000
+---------- window positions & visability ------
+worldWinSizeX:= 10.000000
+worldWinSizeY:= 50.000000
+worldWinSizeW:= 400.000000
+worldWinSizeH:= 400.000000
+infoWinSizeX:= 10.000000
+infoWinSizeY:= 500.000000
+infoWinSizeW:= 400.000000
+infoWinSizeH:= 200.000000
+patternWinSizeX:= 450.000000
+patternWinSizeY:= 50.000000
+patternWinSizeW:= 400.000000
+patternWinSizeH:= 400.000000
+showInfoWindow:= 1
+showEditorWindow:= 1
+========== text editor ========================
+editorTextColor:= 0.000000 0.000000 0.000000
+editorErrColor:= 1.000000 0.300000 0.300000
+useFullCursor:= 1
+editorCursorTextColor:= 0.500000 0.000000 0.500000
+editorCursorBgColor:= 0.600000 0.600000 0.600000
+idleCursorWidth:= 1
+flashTime:= 1000
+jumpToErrPosition:= 1
+showCmdLineFileInTextEditor:= 0
+helpActive:= 1
+generateCausalFromTextEditorOnStart:= 0
+autosaveCausalFromTextEditor:= 0
+========== animation window====================
+---------- general ----------------------------
+movement:= 0
+walkFactor:= 5.000000
+sound:= 0
+axis:= 0
+gravity:= 98.099998
+objectFaktor:= 1.000000
+objectSize:= 1.000000
+bodyFaktor:= 1.100000
+throwSound:= 0
+dynSoundHeight:= 0
+dynSoundPos:= 0
+jNumbers:= 0
+floorSize:= 500.000000
+niveauSize:= 500.000000
+niveauLines:= 6
+emptyBeats:= 1
+maxDwell:= -1.000000
+showNivieaus:= 0
+magnification:= 0.010000
+matrix:=  1.000000 0.000000 0.000000 0.000000 0.000000 0.984808 -0.173648 -1.738886 0.000000 0.173648 0.984808 -7.414598 0.000000 0.000000 0.000000 1.000000
+rotationAroundCenter:= 101.500000
+bendAngle:= 0.500000
+modelScale:= 100.000000
+objectStyle:= 2
+objectColorMode:= 1
+playDropSound:= 0
+minActionTime:= 0.200000
+showLogo:= 0
+showCameraPath:= 0
+showJugglerPath:= 0
+showJugglerPoi:= 0
+showJugglerModifiers:= 0
+showAbstracts:= 0
+texturedClub:= 0
+texturedBall:= 0
+texturedSky:= 0
+texturedFloor:= 0
+texturedJuggler:= 0
+texturedHead:= 0
+showScene:= 0
+animationSpeed:= 2.000000
+solidNiveaus:= 0
+solidFloor:= 0
+showFloorGrid:= 1
+dwellElevation:= 15.000000
+smooth:= 1
+antialias:= 0
+showObjectVektors:= 0
+repeatFloor:= 1
+lookThroughFloor:= 1
+showNumbers:= 0
+numbersColor:= 0.600000 0.600000 0.600000
+unicycles:= 0
+sky:= 0
+floor:= 0
+jointBalls:= 1
+blindfolded:=0
+emphaseShortDistanceFlag:=0
+minObjectDistance:= 50.000000
+---------- stage description ----------
+showStage:= 0
+stageColor:= 0.200000 0.200000 0.200000
+stageLowerLeft:= -400.000000 0.000000 -500.000000
+stageUpperRight:= 400.000000 400.000000 -500.000000
+========== info ===========================
+fpsInMovieInfo:= 10
+patternInfo:= 0
+frameRateInfo:= 0
+infoStringInfo:= 0
+eventInfo:= 1
+movieFrameRate:= 15
+fadeEvents:= 0
+fadeFactor:= 1.000000
+numberOfAdditionalEvents:= 5
+movieInfo:= 0
+========== appl stuff =========================
+---------- siteswap ---------------------------
+siteswapMode:= 0
+holdTwo:= 1
+syncMode:= 1
+oneTime:= 0.500000
+switch1x:= 1
+---------- juggling ---------------------------
+defhandDwell:= 0.500000
+jugglerStyle:= 1
+delayMode:= 1
+autoHurried:= 1
+---------- hand movement ---------------------
+vertHandMovement:= 8.000000
+armForeFactor:= 0.500000
+armSideFactor:= 0.500000
+ellbowDeflection:= 0.300000
+deflectionPassFactor:= 1.500000
+dwell:= 1.000000
+vDwell:= 1.000000
+throwAngle:= 10.000000
+passCorrectionVector:= 10.000000 -35.000000 40.000000
+catchCorrectionVector:= 0.000000 25.000000 0.000000
+---------- misc  ------------------------------
+saved:= 1
+errorOut:= 0
+mouseControl:= 1
+inputPatternCode:= b
+textSize:= 0.800000
+soundOutput:= 1
+textEditorAutoStartFlag:= 0
+screenWidth:= 640.000000
+screenHeight:= 480.000000
+newGiraffeModel:= 1
+causalEditorHasOpenWindows:= 1
+askForSave:= 1
+---------- prefs  -----------------------------
+writeLogfile:= 1
+conOutput:= 1
+showMenuHotkeys:= 1
+showMenuSelectors:= 1
+waitForUserInputOnQuit:= 0
+---------- experimental: --------------------------------
+runaroundEditorHasOpenWindows:= 0

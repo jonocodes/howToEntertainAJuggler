@@ -1,0 +1,44 @@
+! Le trapeze dynamique en 2-temps
+! JiBe + Julien, 02/04/2001
+! explications : http://perso.club-internet.fr\gibee\plusieurs\trapeze_dynamique.htm
+
+
+! positions -------------------
+
+#r PA1 (-100,0,100)(100,0,100)
+#r PA2 (-200,0,100)(200,0,100)
+#r PB1 (100,0,100)(-100,0,100)
+#r PB2 (200,0,100)(-200,0,100)
+
+#r PC1 (-200,0,-100)(200,0,-100)
+#r PC2 (-100,0,-100)(100,0,-100)
+#r PD1 (200,0,-100)(-200,0,-100)
+#r PD2 (100,0,-100)(-100,0,-100)
+
+
+#jugglerPosition 1 PA1
+#jugglerPosition 2 PB1
+#jugglerPosition 3 PC1
+#jugglerPosition 4 PD1
+
+#r t_mouv 4
+
+! code-------------------------
+
+< 3:2 | 3:1  | 3:4 | 3:3 >
+< 3   | 3    | 3   | 3   >
+< 3:4 | 3:3  | 3:2 | 3:1 >
+#m 1 t_mouv PA2
+#m 2 t_mouv PB2
+#m 3 t_mouv PC2
+#m 4 t_mouv PD2
+< 3   | 3    | 3   | 3   >
+
+< 3:2 | 3:1  | 3:4 | 3:3 >
+< 3   | 3    | 3   | 3   >
+< 3:4 | 3:3  | 3:2 | 3:1 >
+#m 1 t_mouv PA1
+#m 2 t_mouv PB1
+#m 3 t_mouv PC1
+#m 4 t_mouv PD1
+< 3   | 3    | 3   | 3   >

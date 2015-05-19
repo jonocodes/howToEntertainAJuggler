@@ -1,0 +1,93 @@
+! Le tourbillon de Bruno en 4-temps
+! JiBe 03/04/2001
+! explications : http://perso.club-internet.fr\gibee\plusieurs\tourbillon.htm
+
+
+! positions -------------------
+
+#r PA (300,0,0)
+#r PB (300,0,300)
+#r PC (0,0,300)
+#r PD (0,0,0)
+
+#jugglerPosition 1 PA PD
+#jugglerPosition 2 PB PC
+#jugglerPosition 3 PC PB
+#jugglerPosition 4 PD PA
+
+#r t_mouv 3
+#r amp 30
+
+! code-------------------------
+
+< 3:4 | 3:3  | 3:2 | 3:1 >
+< 3   | 3    | 3   | 3   >
+#m x-amp 1 t_mouv PB PC
+#m x+amp 2 t_mouv PA PD
+#m x-amp 3 t_mouv PD PA
+#m x+amp 4 t_mouv PC PB
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:4 | 3:3  | 3:2 | 3:1 >
+< 3   | 3    | 3   | 3   >
+#m 1 t_mouv PB PA
+#m 2 t_mouv PA PB
+#m 3 t_mouv PD PC
+#m 4 t_mouv PC PD
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:2 | 3:1  | 3:4 | 3:3 >
+< 3   | 3    | 3   | 3   >
+#m x+amp 1 t_mouv PC PD
+#m x-amp 2 t_mouv PD PC
+#m x+amp 3 t_mouv PA PB
+#m x-amp 4 t_mouv PB PA
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:2 | 3:1  | 3:4 | 3:3 >
+< 3   | 3    | 3   | 3   >
+#m 1 t_mouv PC PB
+#m 2 t_mouv PD PA
+#m 3 t_mouv PA PD
+#m 4 t_mouv PB PC
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:4 | 3:3  | 3:2 | 3:1 >
+< 3   | 3    | 3   | 3   >
+#m x-amp 1 t_mouv PD PA
+#m x+amp 2 t_mouv PC PB
+#m x-amp 3 t_mouv PB PC
+#m x+amp 4 t_mouv PA PD
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:4 | 3:3  | 3:2 | 3:1 >
+< 3   | 3    | 3   | 3   >
+#m 1 t_mouv PD PC
+#m 2 t_mouv PC PD
+#m 3 t_mouv PB PA
+#m 4 t_mouv PA PB
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:2 | 3:1  | 3:4 | 3:3 >
+< 3   | 3    | 3   | 3   >
+#m x+amp 1 t_mouv PA PB
+#m x-amp 2 t_mouv PB PA
+#m x+amp 3 t_mouv PC PD
+#m x-amp 4 t_mouv PD PC
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >
+
+< 3:2 | 3:1  | 3:4 | 3:3 >
+< 3   | 3    | 3   | 3   >
+#m 1 t_mouv PA PD
+#m 2 t_mouv PB PC
+#m 3 t_mouv PC PB
+#m 4 t_mouv PD PA
+< 3   | 3    | 3   | 3   >
+< 3   | 3    | 3   | 3   >

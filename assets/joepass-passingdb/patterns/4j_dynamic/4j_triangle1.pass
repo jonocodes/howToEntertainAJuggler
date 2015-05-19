@@ -1,0 +1,39 @@
+! Le triangle1 avec changement de role tous les 2 temps----
+! JiBe + julien, 20/03/2001
+
+
+! positions -------------------
+
+! jongleur en bas à gauche
+#jugglerPosition 1 (-200,0,100)(0,0,0)
+! jongleur au milieu
+#jugglerPosition 2 (0,0,0)(0,0,-200)
+! jongleur en bas à droite
+#jugglerPosition 3 (200,0,100)(0,0,0)
+! jongleur en haut
+#jugglerPosition 4 (0,0,-200)(0,0,0)
+
+!positions jongleur 2
+#r PA (0,0,0)(0,0,-200)
+#r PB (0,0,0)(-200,0,100)
+#r PC (0,0,0)(200,0,100)
+
+! code-------------------------
+
+! 2-temps
+<3:3 | 3   | 3:4 | 3:1>
+<3   | 3   | 3   | 3  >
+<3:3 | 3:4 | 3:1 | 3:2>
+#m 2 4 PB
+<3   | 3   | 3   | 3  >
+<3:3 | 3   | 3:4 | 3:1>
+<3   | 3   | 3   | 3  >
+<3:2 | 3:1 | 3:4 | 3:3>
+#m 2 4 PC
+<3   | 3   | 3   | 3  >
+<3:3 | 3   | 3:4 | 3:1>
+<3   | 3   | 3   | 3  >
+<3:4 | 3:3 | 3:2 | 3:1>
+#m 2 4 PA
+<3   | 3   | 3   | 3  >
+

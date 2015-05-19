@@ -1,0 +1,34 @@
+#r JM 1
+#r JA 2
+#r JB 3
+#r JC 4
+#r JD 5
+
+#r PA (200,0,200) 
+#r PB (200,0,-200)
+#r PC (-200,0,200)
+#r PD (-200,0,-200)
+#r PM (0,0,0)
+
+
+#jugglerPosition 1 PM PA
+#jugglerPosition 2 PA PM
+#jugglerPosition 3 PB PM
+#jugglerPosition 4 PC PM
+#jugglerPosition 5 PD PM
+
+#jugglerMove 1 .5 PM PD
+< 3:JD | 3:JB | 3:JM | 3:JA | 3:JC >
+#jugglerMove 1 .5 PM PC
+< 3:JC | 3:JM | 3:JA | 3:JD | 3:JB >
+#jugglerMove 1 .5 PM PB
+< 3:JB | 3:JC | 3:JM | 3:JA | 3:JD >
+#jugglerMove 1 .5 PM PA
+< 3:JA | 3:JM | 3:JD | 3:JC | 3:JB >
+
+!             |M-D | M-C | M-B | M-A|
+!A       B    |A-B | A-M | A-C | A-M|
+!    M        |B-M | B-A | B-M | B-D|
+!C       D    |C-A | C-D | C-A | C-C|
+!             |D-C | D-B | D-D | D-B|
+
